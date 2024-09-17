@@ -14,28 +14,28 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      show: true,
-      list: [1, 2, 3]
-    }
-  },
-  methods: {
-    toggleList() {
-      this.show = !this.show
+  export default {
+    data() {
+      return {
+        show: true,
+        list: [1, 2, 3]
+      }
     },
-    pushNumber() {
-      this.list.push(this.list.length + 1)
-    },
-    popNumber() {
-      this.list.pop()
-    },
-    reverseList() {
-      this.list.reverse()
+    methods: {
+      toggleList() {
+        this.show = !this.show
+      },
+      pushNumber() {
+        this.list.push(this.list.length + 1)
+      },
+      popNumber() {
+        this.list.pop()
+      },
+      reverseList() {
+        this.list.reverse()
+      }
     }
   }
-}
 </script>
    
 <style scoped>

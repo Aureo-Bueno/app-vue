@@ -10,11 +10,11 @@
 </template>
 
 <script>
-export default {
-  name: 'NavBar',
-  props: {
+  export default {
+    name: 'NavBar',
+    props: {
+    }
   }
-}
 </script>
 
 <style scoped>

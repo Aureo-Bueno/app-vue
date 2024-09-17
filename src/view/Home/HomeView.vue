@@ -23,7 +23,6 @@
       const router = useRouter()
 
       const goBack = () => {
-
         if (router._value?.path !== '/') {
           console.log(router);
 
