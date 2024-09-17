@@ -1,18 +1,13 @@
 <template>
-  <NavBar />
-  <ListNumber />
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import ListNumber from './components/ListNumber.vue'
 
 export default {
   name: 'App',
-  components: {
-    NavBar,
-    ListNumber,
-  }
 }
 </script>
 
